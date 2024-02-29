@@ -13,7 +13,10 @@ This folder houses the new and improved geojson files. We've converted and updat
 Here reside the topojson files. These are derived from the updated geojson files in the output_files folder. Topojsons offer a more compressed and simplified format, enhancing project efficiency and ease of use.
 
 ### merged
-The merged folder is designated for uploading or inserting merged JSON files. These merged files consolidate multiple layers into a single JSON for streamlined data management.
+The merged folder is designated for uploading merged JSON files. These merged files consolidate multiple layers into a single JSON for streamlined data management.
+
+
+
 
 
 
