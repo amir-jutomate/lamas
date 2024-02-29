@@ -60,3 +60,6 @@
 #
 # # Save the merged GeoDataFrame to a new GeoJSON file
 # merged_gdf.to_file('/Users/idanavrahami/Downloads/merged_mahoz_nafa.geojson', driver='GeoJSON')
+
+
+#test
