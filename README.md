@@ -17,8 +17,3 @@ The merged folder is designated for uploading merged JSON files. These merged fi
 
 
 
-
-
-
-
-Try Succeed! 
