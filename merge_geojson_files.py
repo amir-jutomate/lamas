@@ -3,10 +3,10 @@ import geopandas as gpd
 import pandas as pd
 
 # Load the first GeoJSON file into a GeoDataFrame
-gdf1 = gpd.read_file('/Users/amiross/Documents/lamas/merged/map.geojson')
+gdf1 = gpd.read_file('/Users/ronen_saviz/PycharmProjects/lamas/merged/m_n_n_e_t_g_new.geojson')
 
 # Load the second GeoJSON file into a GeoDataFrame
-gdf2 = gpd.read_file('/Users/amiross/Documents/lamas/output_files/metropolin_rings.geojson')
+gdf2 = gpd.read_file('/Users/ronen_saviz/PycharmProjects/lamas/output_files/yishuvim.geojson')
 
 # Load the third GeoJSON file into a GeoDataFrame
 # gdf3 = gpd.read_file('/Users/amiross/Documents/lamas/output_files/Metropolin.geojson')
@@ -25,4 +25,4 @@ gdf2 = gpd.read_file('/Users/amiross/Documents/lamas/output_files/metropolin_rin
 merged_gdf = gpd.GeoDataFrame(pd.concat([gdf1, gdf2], ignore_index=True))
 
 # Save the merged GeoDataFrame to a new GeoJSON file
-merged_gdf.to_file('/Users/amiross/Documents/lamas/merged/m_n_n_e_t_g_new.geojson', driver='GeoJSON')
+merged_gdf.to_file('/Users/ronen_saviz/PycharmProjects/lamas/merged/m_n_n_e_t_g_y_new.geojson', driver='GeoJSON')
