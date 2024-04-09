@@ -71,7 +71,16 @@ To upload and process the new GeoJSON file, navigate to [mapshaper.org](https://
 
 ### Uploading to geojson.io and Conversion to TopoJSON
 
-After optimizing the file size, upload the GeoJSON to [geojson.io](https://geojson.io). This platform provides a convenient way to visualize and convert GeoJSON files into TopoJSON format, which is more efficient and typically smaller in file size than GeoJSON.
+After optimizing the file size, upload the JSON to [geojson.io](https://geojson.io). 
+This platform provides a convenient way to visualize and convert JSON files into TopoJSON format.
+
+
+### Steps for Conversion to TopoJSON:
+
+1. Upload GeoJSON: Go to geojson.io and upload your optimized GeoJSON file.
+2. Visualize and Convert: Once uploaded, you can view your GeoJSON on the map. Look for the option to convert the file to TopoJSON format on the platform.
+3. Download TopoJSON: After conversion, download the TopoJSON file, which is more efficient than the original GeoJSON in Looker Pro.
+
 
 ### What is TopoJSON?
 
