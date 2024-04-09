@@ -16,8 +16,6 @@ Here reside the topojson files. These are derived from the updated geojson files
 The merged folder is designated for uploading merged JSON files. These merged files consolidate multiple layers into a single JSON for streamlined data management.
 
 ## GeoJSON to TopoJSON Transformation subject
-
-
 Based on your requirements, here's a draft for your README that explains the process and includes the provided Python script for transforming GeoJSON files, and subsequent steps for converting GeoJSON to TopoJSON, considering file size limitations. Adjustments can be made to better fit your specific project or documentation style.
 
 ## Introduction
