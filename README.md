@@ -45,6 +45,15 @@ print("Transformed CRS:", gdf_transformed.crs)
 gdf_transformed.to_file('/path/to/your/transformed.geojson', driver='GeoJSON')
 ```
 
+you can find the transformed GeoJSON file in the *fix_geojson_files.py* script's directory.
+
+
+
+
+
+
+
+
 ### Reducing GeoJSON File Size with Mapshaper
 
 To upload and process the new GeoJSON file, navigate to [mapshaper.org](https://mapshaper.org/). This web application allows for file size reduction through simplification and other techniques, which is critical for meeting Looker's file size limitations.
