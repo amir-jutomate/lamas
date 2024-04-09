@@ -74,26 +74,21 @@ To upload and process the new GeoJSON file, navigate to [mapshaper.org](https://
 After optimizing the file size, upload the JSON to [geojson.io](https://geojson.io). 
 This platform provides a convenient way to visualize and convert JSON files into TopoJSON format.
 
+![image](https://github.com/amir-jutomate/lamas/assets/142908270/c552a3a9-c9f5-4ffc-a553-6da43353587c)
+![image](https://github.com/amir-jutomate/lamas/assets/142908270/39415828-fd80-49f2-aecc-2483b66cef31)
 
 ### Steps for Conversion to TopoJSON:
 
-1. Upload GeoJSON: Go to geojson.io and upload your optimized GeoJSON file.
-2. Visualize and Convert: Once uploaded, you can view your GeoJSON on the map. Look for the option to convert the file to TopoJSON format on the platform.
+1. Upload GeoJSON: Go to geojson.io and upload your optimized JSON file.
+2. Visualize and Convert: Once uploaded, you can view your JSON on the map. Look for the option to convert the file to TopoJSON format on the platform.
 3. Download TopoJSON: After conversion, download the TopoJSON file, which is more efficient than the original GeoJSON in Looker Pro.
-
 
 ### What is TopoJSON?
 
-TopoJSON is an extension of GeoJSON that encodes topology. It eliminates redundancy, significantly reducing file size while retaining the full precision and detail of the original GeoJSON. This format is particularly useful for web applications like Looker, which may have limitations on the size of GeoJSON/TopoJSON files that can be uploaded.
+TopoJSON is a type of GeoJSON that reduces file size by removing unnecessary data but keeps all the important details.
+It's great for web apps like Looker that have strict file size limits.
 
 ### Looker File Size Limitations
 
-Looker imposes file size limitations for uploading Geo/TopoJSON files to ensure optimal performance and usability. It's important to keep the size of your TopoJSON files within these limits to ensure they can be uploaded and used within Looker without issues. The process outlined above, including the use of mapshaper.org for file size reduction, is crucial for meeting these restrictions.
-
-## Conclusion
-
-This guide outlines the process for transforming GeoJSON files to TopoJSON, making them suitable for use in Looker by ensuring they meet file size limitations. By following these steps, you can optimize your geographic data for better performance and usability in web applications.
-
---- 
-
-Make sure to replace `/path/to/your/original.geojson` and `/path/to/your/transformed.geojson` in the Python script with the actual paths to your GeoJSON files. Adjust any part of this README to better fit your project requirements or personal preferences.
+Looker has file size limits for Geo/TopoJSON files to keep things running smoothly. 
+It's important to make sure your TopoJSON files aren't too big so you can use them in Looker  Pro without any problems.
