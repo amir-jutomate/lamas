@@ -48,20 +48,26 @@ gdf_transformed.to_file('/path/to/your/transformed.geojson', driver='GeoJSON')
 you can find the transformed GeoJSON file in the *fix_geojson_files.py* script's directory.
 
 
-
-
-
-
-
-
 ### Reducing GeoJSON File Size with Mapshaper
 
 To upload and process the new GeoJSON file, navigate to [mapshaper.org](https://mapshaper.org/). This web application allows for file size reduction through simplification and other techniques, which is critical for meeting Looker's file size limitations.
+![image](https://github.com/amir-jutomate/lamas/assets/142908270/c82d081f-5058-4a7b-9ef3-9a1a853f79f0)
+
+![image](https://github.com/amir-jutomate/lamas/assets/142908270/c856a77d-4432-45cd-b2f3-6fd814241556)
+
+![image](https://github.com/amir-jutomate/lamas/assets/142908270/e3740eb2-67b4-433b-85c5-2200d8d3e469)
+
+![image](https://github.com/amir-jutomate/lamas/assets/142908270/6645cc21-33b3-479b-b124-36f18db35349)
+
+![image](https://github.com/amir-jutomate/lamas/assets/142908270/c8cf520c-aad2-479e-b19a-d3eb235d4015)
+
+![image](https://github.com/amir-jutomate/lamas/assets/142908270/09440b7c-c99a-421b-9561-8e5e2eca431e)
+
 
 #### Steps for Conversion:
 1. Upload your GeoJSON file to mapshaper.org.
 2. Use the provided tools to simplify and minimize the file size as needed.
-3. Download the optimized GeoJSON file.
+3. Download the optimized TopoJSON file the web is downloaded in JSON.
 
 ### Uploading to geojson.io and Conversion to TopoJSON
 
